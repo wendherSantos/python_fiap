@@ -1,4 +1,4 @@
-from Funcoes import *
+from funcoes.funcoes_dicionarios import *
 usuarios={}
 
 opcao=perguntar()
