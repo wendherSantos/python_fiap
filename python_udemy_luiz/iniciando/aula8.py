@@ -1,10 +1,9 @@
 nome = 'Wendher'
 sobrenome = 'Santos'
 idade = 20
-ano_nascimento = 2002
+ano_nascimento = 2023 - idade
 maior_de_idade = idade >= 18
 altura_metros = 1.70
-
 
 print('Dados do paciente:\n')
 print('Nome: ', nome)
