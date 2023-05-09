@@ -12,7 +12,9 @@
 # print(nome_completo, soma_dois_mais_dois)
 
 nome_completo = "Wendher Gerson dos Santos"
-idade = 20
+idade = 13
 maior_de_idade = idade >= 18
 
-print(nome_completo)
+print('Nome:', nome_completo)
+print('Idade:', idade)
+print('É maior de idade?', maior_de_idade)
