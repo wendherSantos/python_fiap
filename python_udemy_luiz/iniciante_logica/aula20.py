@@ -1,7 +1,6 @@
 primeiro_valor = input('Digite um valor: ')
 segundo_valor = input('Digite um valor: ')
 
-
 # MINHA RESPOSTA
 
 # if primeiro_valor > segundo_valor:
@@ -10,7 +9,6 @@ segundo_valor = input('Digite um valor: ')
 #     print('O segundo valor:', segundo_valor, 'é igual ao primeiro valor:', primeiro_valor)
 # else:
 #     print('O segundo valor:', segundo_valor, 'é maior do que o primeiro valor:', primeiro_valor)
-
 
 if primeiro_valor > segundo_valor:
     print(
