@@ -1,0 +1,26 @@
+git init: Inicializa um novo repositório Git local.
+git clone: Clona um repositório remoto para o computador local.
+git add: Adiciona arquivos ou mudanças ao índice do Git, preparando-os para o commit.
+git status: Mostra o estado atual do repositório, incluindo mudanças rastreadas e não rastreadas.
+git commit: Cria um novo commit com as mudanças rastreadas no índice, incluindo uma mensagem explicativa.
+git log: Exibe o histórico de commits em um repositório.
+git diff: Mostra as diferenças entre o índice e a última versão commitada.
+git checkout: Muda para um branch ou commit específico, atualizando os arquivos do repositório local.
+git branch: Lista todos os branches locais e indica o branch atual.
+git merge: Mescla as mudanças de um branch para o branch atual.
+git pull: Atualiza o repositório local com as mudanças do repositório remoto.
+git push: Envia as mudanças locais para o repositório remoto.
+git remote: Lista os repositórios remotos configurados.
+git fetch: Atualiza as referências locais com as mudanças do repositório remoto, sem mesclar.
+git stash: Salva temporariamente as mudanças não commitadas, permitindo mudar de branch sem conflitos.
+git rm: Remove um arquivo do índice e do diretório de trabalho.
+git revert: Cria um novo commit desfazendo as mudanças de um commit anterior.
+git rebase: Reaplica commits de um branch em cima de outro, criando uma nova linha histórica.
+git bisect: Ajuda a encontrar o commit que introduziu um bug através de uma busca binária.
+git config: Configura as opções do Git, como nome de usuário e email.
+
+
+git status
+git add .
+git commit -m
+git push
