@@ -5,12 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Current File",
-            "type": "python",
+            "type": "java",
+            "name": "Attach",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": "<debug port of the debuggee>"
+        },
+        {
+            "type": "delegua",
             "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal",
-            "justMyCode": true
+            "name": "Pedir por nome de arquivo",
+            "program": "${workspaceFolder}/${command:AskForProgramName}",
+            "stopOnEntry": false
         }
     ]
 }
